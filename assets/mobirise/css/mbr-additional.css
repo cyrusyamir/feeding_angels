@@ -17,7 +17,7 @@ img,
   overflow: hidden;
 }
 body {
-  background-color: #fffde6;
+  /* background-color: #fffde6; */
 }
 body {
   font-family: Manrope;
@@ -165,8 +165,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #ff8800 !important;
-  border-color: #ff8800 !important;
+  background-color: #fe6a0d !important;
+  border-color:#fe6a0d !important;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -488,7 +488,7 @@ body {
 }
 .btn-white-outline,
 .btn-white-outline:active {
-  background-color: transparent !important;
+  background-color: #fe6a0d !important;
   border-color: #fafafa;
   color: #fafafa;
 }
