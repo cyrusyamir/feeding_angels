@@ -25,13 +25,24 @@
 }
 
 #btn-style {
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 #btn-style .btn {
     padding: 0.6rem 2.4rem !important;
 
 }
+
+div.para-txt p{
+
+    line-height: 1.6 !important;
+}
+
+
+.change-left{
+    flex-direction: column-reverse;
+}
+
 
 .cid-uj8blje2Qz img,
 .cid-uj8blje2Qz .item-img {
@@ -49,7 +60,7 @@ body {
 }
 
 .cid-uj8bljhbyN {
-    background-image: url('/assets/images/fff523dab0.jpg') !important; 
+    background-image: url('/assets/images/fff523dab0\ \(1\).jpg') !important; 
 }
 
 @media screen and (max-width: 600px) {
