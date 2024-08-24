@@ -68,16 +68,36 @@ div.para-txt p {
     line-height: 1.6 !important;
 }
 
+.para-txt>div {
+    border: 2px dashed #fe6a0d;
+    border-radius: 24px;
+    padding: 34px 22px;
+
+}
+
+.para-txt {
+    gap: 12px;
+}
+
 
 .change-left {
     flex-direction: column-reverse;
 }
 
+.space {
+    padding: 140px 0;
+}
+
 
 .cid-uj8blje2Qz img,
 .cid-uj8blje2Qz .item-img {
-    height: 280px !important;
-    border-radius: 12px !important;
+    /* height: 280px !important; */
+    /* border-radius: 12px !important; */
+}
+
+.bg-instagram,
+.bg-facebook {
+    background-color: #000 !important;
 }
 
 
