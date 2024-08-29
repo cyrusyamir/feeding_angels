@@ -5,6 +5,16 @@
     margin: 30px 0;
 }
 
+
+#cwqdqwsqw {
+    background-image: url(assets/images/background333.jpg);
+    /* filter: grayscale(100%); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #w3w2rq2 > img{
 
     height: auto;
@@ -54,6 +64,70 @@
     font-weight: bold;
 }
 
+
+
+/* sd  cousolue */
+
+.carousel{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+
+.carousel-inner img {
+    border-radius: 45px;
+    /* background-clip: inherit; */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+   display: none !important;
+}
+
+.carousel-control-prev {
+    left: -70px; /* Positioning the previous button outside */
+}
+
+.carousel-control-next {
+    right: -70px; /* Positioning the next button outside */
+}
+
+.carousel-indicators-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* margin-top: 20px; */
+    transform: translateY(180px);
+    z-index: 3232;
+}
+
+.carousel-indicators {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li {
+    width: 30px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #f78b25e5;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff;
+    width: 35px; /* Slightly larger for the active state */
+}
+
+
 @media (max-width: 768px) {
     .card-body{
         width: 100%;
@@ -62,4 +136,11 @@
     #card-cont{
         flex-direction: column;
     }
+
+    .carousel-indicators-container {
+        transform: translateY(120px);
+    }
+
+
+
 }
