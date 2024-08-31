@@ -1,3 +1,8 @@
+.cid-uj8blje7QF img, .cid-uj8blje7QF .image-wrapper{
+    max-width: 455px !important;
+}
+
+
 /* Custom Styles for the Cards */
 .custom-card {
     border-radius: 15px;
