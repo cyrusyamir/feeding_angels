@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* background-position-x: -180px; */
+    /* align-items: center !important; */
 }
 
 #cwqdqwsqw {
@@ -42,9 +43,9 @@
     background: #fe6a0d;
     position: absolute;
     bottom: 24px;
-    left: -18px;
-    height: 70%;
-    width: 6px;
+    left: 24%;
+    height: 6%;
+    width: 30%;
 }
 
 #call-to-action-1-uj8bljhbyN{
