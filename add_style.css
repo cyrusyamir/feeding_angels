@@ -15,8 +15,18 @@
     background-size: cover;
 }
 
-.cid-uj8blje2Qz{
+.cid-uj8blje2Qz {
     padding-bottom: 0 !important;
+}
+
+.new_home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.new_home>.row {
+    min-width: 50%;
 }
 
 
@@ -48,7 +58,7 @@
     width: 30%;
 }
 
-#call-to-action-1-uj8bljhbyN{
+#call-to-action-1-uj8bljhbyN {
     margin-top: 120px;
 }
 
@@ -150,7 +160,7 @@ body {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #hero-16-uj8bljdBwY {
         background-position-x: -180px !important;
     }
@@ -169,4 +179,10 @@ body {
         border-radius: 0 0 40px 40px !important;
         min-height: 80vh !important;
     }
+
+    .new_home {
+        flex-wrap: wrap;
+        margin-top: 6rem;
+    }
+
 }

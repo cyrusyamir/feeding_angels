@@ -1,0 +1,36 @@
+ /* General Styling */
+ .left-section {
+     height: 100vh;
+     overflow-y: scroll;
+     padding: 20px;
+ }
+
+ .scroll-content {
+     height: 100%;
+ }
+
+ .sticky-card {
+     position: -webkit-sticky;
+     position: sticky;
+     top: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     background: white;
+ }
+
+ .card-img-top {
+     height: 300px;
+     object-fit: cover;
+ }
+
+ .product-price {
+     font-size: 1.5rem;
+     font-weight: bold;
+     color: #28a745;
+ }
+
+ @media (max-width: 768px) {
+     .sticky-card {
+         position: relative;
+         top: auto;
+     }
+ }
